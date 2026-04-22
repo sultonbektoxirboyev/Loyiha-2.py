@@ -50,7 +50,7 @@ expression = ""
 entry_var = tk.StringVar()
 
 # ===== Gradient Background (Canvas) =====
-canvas = tk.Canvas(root, width=340, height=550, highlightthickness=0)
+canvas = tk.Canvas(root, width=350, height=550, highlightthickness=0)
 canvas.pack(fill="both", expand=True)
 
 def draw_gradient():
