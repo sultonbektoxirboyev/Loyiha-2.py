@@ -26,7 +26,7 @@ def press(key):
         entry_var.set(expression)
 
 
-# ============== KEYBOARD SUPPORT ==============
+# ============== KEYBOARD SUPPORT =============
 def key_press(event):
     key = event.keysym
 
@@ -50,7 +50,7 @@ expression = ""
 entry_var = tk.StringVar()
 
 # ===== Gradient Background (Canvas) =====
-canvas = tk.Canvas(root, width=340, height=500, highlightthickness=0)
+canvas = tk.Canvas(root, width=340, height=550, highlightthickness=0)
 canvas.pack(fill="both", expand=True)
 
 def draw_gradient():
